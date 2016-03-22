@@ -31,8 +31,8 @@ public class ArchiveDaoTest {
 	private static Map<String, Object> props = new HashMap<String, Object>();
 
 	protected EntityManager getEntityManager() {
-		if (em == null) {
-			throw new NullPointerException("entityManager must be set before executing any operations");
+		if (em == null) { 
+			throw new NullPointerException("1entityManager must be set before executing any operations");
 		}
 		return em;
 	}
