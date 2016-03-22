@@ -46,7 +46,7 @@ public class EquipmentDaoTest {
 		createSampleTest("000");
 		createSampleTest("000");
 		createSampleTest("000");
-		createSampleTest("000");
+		createSampleTest("0001");
 
 		tx.commit();
 		props.put("javax.persistence.cache.storeMode", "REFRESH");
