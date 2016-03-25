@@ -32,7 +32,7 @@ public class ArchiveDaoTest {
 
 	protected EntityManager getEntityManager() {
 		if (em == null) { 
-			throw new NullPointerException("1entityManager must be set before executing any operations");
+			throw new NullPointerException("122222entityManager must be set before executing any operations");
 		}
 		return em;
 	}
